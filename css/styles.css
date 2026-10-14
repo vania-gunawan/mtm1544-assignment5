@@ -34,8 +34,15 @@ img {
     height: auto;
 }
 
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .hero-image {
-    max-width: 100%;
+    width: 80%;
+     align-items: center;
 }
 
 .collections-grid {
@@ -57,6 +64,7 @@ img {
     align-items: center;
     gap: 10px;
 }
+
 .rose-image {
     max-width: 100%;
 }
@@ -89,3 +97,44 @@ img {
     display: block;
     text-align: center;
 }
+
+.client-testimonial {
+     text-align: center;
+}
+
+#testimonials {
+    text-align: left;
+}
+
+.photo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100px;
+    background-color: #F2C94C;
+}
+
+footer {
+    background-color: #F7F3ED;
+    padding: 30px;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-column {
+    flex: 1 1 200px;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
