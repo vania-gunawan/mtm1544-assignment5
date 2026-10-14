@@ -72,3 +72,20 @@ img {
 .peony-image {
     max-width: 100%;
 }
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: #F2C94C;
+}
+
+#highlights {
+    text-align: center;
+}
+
+.book-consultation {
+    display: block;
+    text-align: center;
+}
