@@ -46,6 +46,11 @@ img {
      align-items: center;
 }
 
+.hero-section a:hover, .hero-section a:focus {
+  color: #F2C94C;
+  text-decoration: underline;
+}
+
 .collections-grid {
     display: flex;
     flex-wrap: wrap;
@@ -106,6 +111,11 @@ img {
     text-align: center;
 }
 
+.book-consultation:hover, .book-consultation:focus {
+  color: #F2C94C;
+  text-decoration: underline;
+}
+
 .client-testimonial {
      text-align: center;
 }
@@ -140,8 +150,14 @@ footer {
 
 .footer-nav {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+footer a:hover, footer a:focus {
+    color: #F2C94C;
+    text-decoration: underline;
 }
 
 
