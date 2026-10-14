@@ -2,19 +2,73 @@
   box-sizing: border-box;
 }
 
-header {
+.site-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    padding: 14px 20px;
 }
 
-header nav {
+.logo {
+    color:#8F2840;
+
+}
+
+.nav {
     display:flex;
-    gap: 20px
+    gap: 22px;
+}
+
+.nav a {
+    color:black;
+  text-decoration: none;
+}
+
+.nav a:hover, .nav a:focus {
+  color: #F2C94C;
+  text-decoration: underline;
 }
 
 img {
     max-width: 100%;
     height: auto;
+}
+
+.hero-image {
+    max-width: 100%;
+}
+
+.collections-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.flower-card {
+    flex: 1 1 200px;
+    min-width: 0;
+}
+
+.flower-card a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.rose-image {
+    max-width: 100%;
+}
+
+.daisy-image {
+    max-width: 100%;
+}
+
+.lily-image {
+    max-width: 100%;
+}
+
+.peony-image {
+    max-width: 100%;
 }

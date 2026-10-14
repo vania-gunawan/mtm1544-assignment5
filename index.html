@@ -9,22 +9,22 @@
 </head>
 
 <body>
-    <header>
-        <p>Bellis Blossom logo</p>
+    <header class="site-header">
+        <div class="logo">Bellis Blossom logo</div>
        
-        <nav aria-label="Main navigation">
-            <a href="index.html">Home</a>
-            <a href="collections.html">Collections</a>
-            <a href="projects.html">Projects</a>
-            <a href="about.html">About Us</a>
-            <a href="contact.html">Contact Us</a>
-            <a href="login.htm">Log in</a>
+        <nav class="nav">
+            <a href="#">Home</a>
+            <a href="#">Collections</a>
+            <a href="#">Projects</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Log in</a>
         </nav>     
     </header>
 
     <main>
         <section>
-             <img src="images/hero.jpg"alt="Hero Image">
+             <img class="hero-image" src="images/hero.jpg"alt="Hero Image">
              <h1>Wedding Flowers, Made for you</h1>
                 <p>Your vision, beautifully brought to life</p>
                 <a href="collections.html">Explore our Collections</a>
@@ -32,16 +32,38 @@
         </section>
 
         <!--Collection Section-->
-        <section><h2 id="collections">Explore our Collections</h2>
+         <section>
+            <h2 id="collections">Explore our Collections</h2>
             <!--By Flowers Button-->
             <!--By Arrangements Button-->
-            <ul class="flower-cards">
-                <li class="flower-cards"></li>
-                    <a href="collections.html"></a>
+            <ul class="collections-grid">
+                <li class="flower-card">
+                    <a href="rose.html">
+                    <img class="rose-image" src="images/rose.jpg"alt="Rose bouquet">
+                    Rose
+                    </a>
+                </li>
+                
+                <li class="flower-card">
+                    <a href="collections.html">
+                    <img class="daisy-image" src="images/daisy.jpg"alt="daisy bouquet">
+                    Daisy
+                    </a>
+                </li>
 
-                <li><!--Daisy card: image & link--></li>
-                <li><!--Lily card: image & link--></li>
-                <li><!--Peony card: image & link--></li>
+                <li class="flower-card">
+                    <a href="collections.html">
+                    <img class="lily-image" src="images/lily.jpg"alt="lily flowers">
+                    Lily
+                    </a>
+                </li>
+                
+                <li class="flower-card">
+                    <a href="collections.html">
+                    <img class="peony-image" src="images/peony.jpg"alt="peony flowers">
+                    Peony
+                    </a>
+                </li>
             </ul>
         </section>
                 
@@ -66,7 +88,7 @@
      <footer>
         <!--Logo-->
         <address>
-            Nepan, Ottawa
+            Nepean, Ottawa
         </address>
 
         <nav aria-label="Footer navigation">
